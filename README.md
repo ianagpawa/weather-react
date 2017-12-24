@@ -12,10 +12,12 @@ $   npm install
 ```
 
 ### View the App
-In order to view the app, navigate the terminal into the project folder, execute the command below, and open your browser to `http://localhost:8080`:
+In order to view the app, navigate the terminal into the project folder, execute the command
 ```
 npm start
 ```
+Open your browser to `http://localhost:8080`:
+
 
 ### What's included
 Within the project folder, you will find the following files:
@@ -24,16 +26,18 @@ Within the project folder, you will find the following files:
 weather-react/
     ├── src/
     |   ├── actions/
+    |   |    ├── client_secrets.js
     |   |    └── index.js
     |   ├── components/
-    |   |    └── app.js
+    |   |    ├── app.js
+    |   |    ├── chart.js
+    |   |    └── google_map.js
     |   ├── containers/
-    |   |    ├── xxx.js
-    |   |    └── xxx.js
+    |   |    ├── search_bar.js
+    |   |    └── weather_list.js
     |   ├── reducers/
     |   |    ├── index.js
-    |   |    ├── xxx.js
-    |   |    └── xxx.js
+    |   |    └── reducer_weather.js
     |   └── index.js
     ├── style/
     |   └── style.css
