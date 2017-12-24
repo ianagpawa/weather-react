@@ -11,6 +11,17 @@ This app requires `Node` and `npm` to be installed on your system.  To install d
 $   npm install
 ```
 
+#### Requirements
+This app requires an API key from [OpenWeatherMap](http://openweathermap.org). The API key should be saved in a `client_secrets.js` file in the `actions` folder.
+
+##### OpenWeatherMap
+`client_secrets.js`
+```
+const API_KEY = "XXXXX"
+module.exports = API_KEY
+```
+
+
 ### View the App
 In order to view the app, navigate the terminal into the project folder, execute the command
 ```
@@ -26,7 +37,7 @@ Within the project folder, you will find the following files:
 weather-react/
     ├── src/
     |   ├── actions/
-    |   |    ├── client_secrets.js
+    |   |    ├── client_secrets.js (NOT INCLUDED)
     |   |    └── index.js
     |   ├── components/
     |   |    ├── app.js
